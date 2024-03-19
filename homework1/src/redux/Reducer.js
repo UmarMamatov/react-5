@@ -24,6 +24,9 @@ export default function reducer(state =initialState,action){
         if (count>=10){
             return {number: count-=10}
         }
+        else if (count>0){
+            return {number: --count}
+        }
     }
     else if (action.type ==='RESET'){
         count=0

@@ -1,0 +1,8 @@
+export const types = {
+    INPUT1_VALUE: 'INPUT1_VALUE',
+    INPUT2_VALUE: 'INPUT2_VALUE',
+    PLUS: 'PLUS',
+    MINUS: 'MINUS',
+    MULTIPLY : 'MULTIPLY',
+    DIVISOR: 'DIVISOR'
+}
